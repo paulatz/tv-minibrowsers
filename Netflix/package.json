@@ -2,7 +2,7 @@
   "name": "Netflix",
   "version": "1.0.0",
   "description": "Netflix electron",
-  "icon": "images/netflix.png",
+  "icon": "images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -44,7 +44,7 @@
         {
           "name": "@electron-forge/maker-deb",
           "config": {
-            "icon": "images/netflix.png",
+            "icon": "images/icon.png",
             "desktopTemplate": "netflix.desktop"
           }
         },

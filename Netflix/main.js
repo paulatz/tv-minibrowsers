@@ -1,6 +1,6 @@
 const url = 'https://www.netflix.com'
 const path = require('path')
-const iconpath = path.join(__dirname,'images/netflix.png')
+const iconpath = path.join(__dirname,'images/icon.png')
 const wintitle = 'Netflix'
 const userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4896.81 Safari/537.36";
 

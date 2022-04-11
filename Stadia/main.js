@@ -2,7 +2,7 @@
 //const url = 'https://web.whatsapp.com'
 const url = 'https://www.stadia.com'
 const path = require('path')
-const iconpath = path.join(__dirname,'images/stadia.png')
+const iconpath = path.join(__dirname,'images/icon.png')
 const wintitle = 'Stadia'
 //const userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4896.81 Safari/537.36";
 

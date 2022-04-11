@@ -2,7 +2,7 @@
 //const url = 'https://web.whatsapp.com'
 const url = 'https://www.youtube.com'
 const path = require('path')
-const iconpath = path.join(__dirname,'images/youtube.png')
+const iconpath = path.join(__dirname,'images/icon.png')
 const wintitle = 'Youtube'
 
 //const electron = require ('electron')

@@ -2,7 +2,7 @@
   "name": "Disney Plus",
   "version": "1.0.0",
   "description": "Disney Plus electron",
-  "icon": "images/disney-plus.png",
+  "icon": "images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -44,14 +44,14 @@
         {
           "name": "@electron-forge/maker-deb",
           "config": {
-            "icon": "images/disney-plus.png",
+            "icon": "images/icon.png",
             "desktopTemplate": "disney-plus.desktop"
           }
         },
         {
           "name": "@electron-forge/maker-rpm",
           "config": {
-            "icon": "images/disney-plus.png",
+            "icon": "images/icon.png",
             "desktopTemplate": "disney-plus.desktop"
            }
         }

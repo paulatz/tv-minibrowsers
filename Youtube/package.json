@@ -2,7 +2,7 @@
   "name": "Youtube",
   "version": "1.0.0",
   "description": "Youtube electron",
-  "icon": "images/youtube.png",
+  "icon": "images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -44,7 +44,7 @@
         {
           "name": "@electron-forge/maker-deb",
           "config": {
-            "icon": "images/youtube.png",
+            "icon": "images/icon.png",
             "desktopTemplate": "youtube.desktop"
           }
         },

@@ -2,7 +2,7 @@
   "name": "Youtube Music",
   "version": "1.0.0",
   "description": "Youtube Music electron",
-  "icon": "images/youtube-music.png",
+  "icon": "images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -46,7 +46,7 @@
         {
           "name": "@electron-forge/maker-deb",
           "config": {
-            "icon": "images/youtube-music.png",
+            "icon": "images/icon.png",
             "desktopTemplate": "youtube-music.desktop"
           }
         },

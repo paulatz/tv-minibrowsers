@@ -1,6 +1,6 @@
 const url = 'https://music.youtube.com'
 const path = require('path')
-const iconpath = path.join(__dirname,'images/spotify.png')
+const iconpath = path.join(__dirname,'images/icon.png')
 const wintitle = 'Youtube Music'
 const userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 Safari/537.36"
 

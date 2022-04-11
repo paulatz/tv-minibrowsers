@@ -2,7 +2,7 @@
   "name": "GeForce NOW",
   "version": "1.0.0",
   "description": "GeForce NOW electron",
-  "icon":"images/geforce-now.png",
+  "icon":"images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -41,7 +41,7 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {"icon":"images/geforce-now.png"}
+          "config": {"icon":"images/icon.png"}
         },
         {
           "name": "@electron-forge/maker-rpm",

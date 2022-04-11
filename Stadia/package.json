@@ -2,7 +2,7 @@
   "name": "Stadia",
   "version": "1.0.0",
   "description": "Stadia electron",
-  "icon":"images/stadia.png",
+  "icon":"images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -41,7 +41,7 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {"icon":"images/stadia.png"}
+          "config": {"icon":"images/icon.png"}
         },
         {
           "name": "@electron-forge/maker-rpm",
