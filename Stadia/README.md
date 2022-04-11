@@ -1,3 +1,8 @@
-To build
+To run the project in place:
 npm install
-npm run-script make
+npm start
+
+To build deb and rpm packages:
+npm run make
+
+

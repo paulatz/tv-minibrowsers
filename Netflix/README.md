@@ -1,17 +1,15 @@
-To build
-find a suitable electron release from https://github.com/castlabs/electron-releases/releases
-download the zip file and place it in the zip/ directory, take not of the version and install
-it with the command:
+To build/run find a suitable electron release from [Castlabs list)[https://github.com/castlabs/electron-releases/releases] take note of the version (i.e. v16.2.2+wvcus) and install it with the command:
 
 npm install "https://github.com/castlabs/electron-releases#v16.2.2+wvcus" --save-dev
-#npm install
 
-# build the .deb and .rpm file
-npm run-script make
+To run the project in-place:
+npm start
 
-# in principle to make macosx and windows binary, they have to be signed as follow:
+To build the .deb and .rpm file you will need to download the correct Castlab release in zip format for Linux (i.e. electron-v16.2.2+wvcus-linux-x64.zip) from [Castlab]( https://github.com/castlabs/electron-releases/releases) and place it in the zip subdirectory. Then run
+npm run make
 
-# to sign binary:
+In principle to make macosx and windows binary, they have to be signed as follow, for Linux it is not necessary, but I'm leaving the instructions here to keep track:
+
 # install signing software
 python3 -m pip install --upgrade castlabs-evs
 # create free account
