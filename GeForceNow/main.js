@@ -27,7 +27,7 @@ app.on('ready', _ => {
     icon: iconpath,
     title: wintitle,
     session: session,
-    backgroundColor:'#ff773d',
+    backgroundColor:'#76b900',
     darkTheme:true,
     fullScreen:true,
     titleBarStyle:'hidden',
