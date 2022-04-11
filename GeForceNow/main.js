@@ -41,10 +41,16 @@ app.on('ready', _ => {
     win.webContents.setUserAgent(userAgent)
 
     console.log(win.webContents.getUserAgent())
-//    win.webContents.setUserAgent(userAgent)
 
     win.loadURL(url)    // loads this URL
-//    win.loadURL(url, {userAgent:'Chrome'})    // loads this URL
+
+   // Open external links in a normal browser window. 
+   win.webContents.on('new-window', function(e, url) {
+    e.preventDefault();
+    require('electron').shell.openExternal(url);
+  });
+
+
 })
 
 

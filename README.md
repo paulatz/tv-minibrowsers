@@ -6,6 +6,7 @@ Depending on the website in question, additional requirements can be necessary t
 * support DRM (Netflix, Disney+)
 * allow a Google login (Stadia, Youtube, Youtube Music)
 * guarantee some additional privacy (Youtube, Youtube Music, Spotify)
+* open external links in a real browser window (GeForce NOW, could become necessary for Google apps)
 
 Different methods used:
 *  Support DRM by using [Castlab electron release that includes widevine](https://github.com/castlabs/electron-releases/releases) (I did not manage to include the widevine plugin for chrome using widely published methods available on the web)
