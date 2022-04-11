@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Spotify
+Comment=Spotify electron
+GenericName=Spotify
+Exec=wmctrl -a "Spotify" || spotify %U
+Icon=/usr/share/pixmaps/spotify.png
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Player
+SingleMainWindow=true
+

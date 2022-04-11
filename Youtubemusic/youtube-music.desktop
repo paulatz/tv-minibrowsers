@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Youtube Music
+Comment=Youtube Music electron
+GenericName=Youtube Music
+Exec=wmctrl -a "Youtube Music" || youtube-music %U
+Icon=/usr/share/pixmaps/youtube-music.png
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Player
+SingleMainWindow=true
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Youtube
+Comment=Youtube electron
+GenericName=Youtube
+Exec=wmctrl -a "Youtube" || youtube %U
+Icon=/usr/share/pixmaps/youtube.png
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Player
+SingleMainWindow=true
+

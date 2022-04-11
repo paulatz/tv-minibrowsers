@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Netflix
+Comment=Netflix electron
+GenericName=Netflix
+Exec=wmctrl -a "Netflix" || netflix %U
+Icon=/usr/share/pixmaps/netflix.png
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Player
+SingleMainWindow=true
+

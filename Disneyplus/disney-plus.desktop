@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Disney Plus
+Comment=Disney Plus electron
+GenericName=Disney Plus
+Exec=wmctrl -a "Disney Plus" || disney-plus %U
+Icon=/usr/share/pixmaps/disney-plus.png
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Player
+SingleMainWindow=true
+
