@@ -21,3 +21,7 @@ This software is provided mostly for educational purpose. Website logos are not 
 ![How to get favicon](get_favicon.png)
 
 
+Knwon bugs:
+* Long-press ESC in Stadia is not handled, you cna always press ALT-F4 to quit.
+* Google login screen can be a bit finnicky with 2FA (i.e. require you to manually state tha the second factor has been authentified)
+
