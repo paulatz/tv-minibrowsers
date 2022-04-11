@@ -14,9 +14,9 @@ Different methods used:
 
 Only tested on Linux, patches for MacOSX and Windows are accepted but cannot be tested by me.
 
-Building each package is slightly different, depending on the modules that are included, please refer to the README.md file in each subdirectory for additional details.
+Building each package is slightly different, depending on the modules that are included, please refer to the README.md file in each subdirectory for additional details. In genenral they were tested with the current LTS version of electron (16.x.x), either from [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or from Castlab.
 
-This software is provided mostly for educational purpose. Website logos are not provided to avoid copyright claims, but can be retrieved i.e. using google-chrome select Tools-->More tools->Save shortcut, check "Open as Window". The icon will be saved under $HOME/.local/share/icons/hicolor/256x256/apps/chrome-XXXXXX.png
-![How to get favicon](get_favicon.png){ width=70% }
+This software is provided mostly for educational purpose. Website logos are not provided to avoid copyright claims, but can be retrieved i.e. using google-chrome select Tools--&gt;More tools-&gt;Save shortcut, check "Open as Window". The icon will be saved under $HOME/.local/share/icons/hicolor/256x256/apps/chrome-XXXXXX.png
+![How to get favicon](get_favicon.png)
 
 
