@@ -1,6 +1,6 @@
 {
   "name": "Disney Plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disney Plus electron",
   "icon": "images/icon.png",
   "main": "main.js",
@@ -18,7 +18,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.61",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
     "@electron-forge/maker-zip": "^6.0.0-beta.61",
-    "electron": "github:castlabs/electron-releases#v16.2.2+wvcus"
+    "electron": "github:castlabs/electron-releases#v21.3.3+wvcus"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
@@ -26,8 +26,8 @@
   "config": {
     "forge": {
       "packagerConfig": {
-          "electronZipDir":"zip"
-       },
+        "electronZipDir": "zip"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
@@ -53,7 +53,7 @@
           "config": {
             "icon": "images/icon.png",
             "desktopTemplate": "disney-plus.desktop"
-           }
+          }
         }
       ]
     }
