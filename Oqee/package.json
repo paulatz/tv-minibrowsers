@@ -1,8 +1,8 @@
 {
-  "name": "Stadia",
+  "name": "Oqee",
   "version": "1.0.0",
-  "description": "Stadia electron",
-  "icon":"images/icon.png",
+  "description": "Oqee electron",
+  "icon": "images/icon.png",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -13,24 +13,26 @@
   "author": "Lorenzo Paulatto <paulatz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.57",
-    "@electron-forge/maker-deb": "^6.0.0-beta.57",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.57",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.57",
-    "@electron-forge/maker-zip": "^6.0.0-beta.57",
-    "electron": "^13.1.6"
+    "@electron-forge/cli": "^6.0.0-beta.61",
+    "@electron-forge/maker-deb": "^6.0.0-beta.61",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.61",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
+    "@electron-forge/maker-zip": "^6.0.0-beta.61",
+    "electron": "github:castlabs/electron-releases#v22.3.1+wvcus"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
   },
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "electronZipDir": "zip"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "Stadia"
+            "name": "Oqee"
           }
         },
         {
@@ -41,7 +43,10 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {"icon":"images/icon.png"}
+          "config": {
+            "icon": "images/icon.png",
+            "desktopTemplate": "oqee.desktop"
+          }
         },
         {
           "name": "@electron-forge/maker-rpm",

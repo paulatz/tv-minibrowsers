@@ -24,4 +24,4 @@ You can then copy it to images/icon.png subdirectory.
 Knwon bugs:
 * Mayor: GeForce NOW login currently not working
 * Long-press ESC in Stadia is not handled, you can always press ALT-F4 to quit.
-* Google login screen can be a bit finnicky with 2FA (i.e. require you to manually state tha the second factor has been authentified)
+* Google login screen can be a bit finnicky with 2FA (i.e. require you to manually state that the second factor has been authentified)

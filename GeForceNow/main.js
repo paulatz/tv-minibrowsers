@@ -45,10 +45,10 @@ app.on('ready', _ => {
     win.loadURL(url)    // loads this URL
 
    // Open external links in a normal browser window. 
-   win.webContents.on('new-window', function(e, url) {
-    e.preventDefault();
-    require('electron').shell.openExternal(url);
-  });
+//    win.webContents.on('new-window', function(e, url) {
+//    e.preventDefault();
+//    require('electron').shell.openExternal(url);
+//  });
 
 
 })

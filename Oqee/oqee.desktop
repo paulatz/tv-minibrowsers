@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Oqee
+Comment=Oqee electron
+GenericName=Oqee
+Exec=wmctrl -a "Oqee" || oqee %U
+Icon=/usr/share/pixmaps/oqee.png
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Player
+SingleMainWindow=true
+
